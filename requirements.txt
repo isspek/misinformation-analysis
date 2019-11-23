@@ -1,2 +1,12 @@
 nose
 sphinx
+pandas
+sqlalchemy
+jupyter
+spacy
+dropbox
+loguru
+nltk
+pymongo
+torch
+pyodbc

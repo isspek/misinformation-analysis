@@ -6,6 +6,7 @@ from loguru import logger
 logger.add(sys.stdout, format="{time} - {level} - {message}", filter="sub.module")
 
 # Load the configuration file
+global config
 config = configparser.RawConfigParser(allow_no_value=True)
 config.read(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'config.ini'))
 
